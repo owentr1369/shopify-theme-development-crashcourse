@@ -22,4 +22,8 @@
     </p>
     {% endif %}
 
-{{ product.tags.size }}
+{% for tag in product.tags %}
+    {{tag}}
+    <br>
+{% endfor %}
+
