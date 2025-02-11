@@ -28,3 +28,12 @@
 {% endfor %}
 
 <p>{{product.title}}</p>
+
+
+{% capture html %}
+    <div>
+        <p>Hello, this is me, {{product.title}}</p>
+    </div>
+{% endcapture %}
+
+    {{html}}
