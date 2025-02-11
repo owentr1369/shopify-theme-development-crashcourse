@@ -16,3 +16,8 @@
 {%- assign my_nil = null -%}
 <p>{{- my_nil -}}</p>
 
+{% if undefined_variable == nil %}
+    <p>
+        The variable is nil
+    </p>
+    {% endif %}
