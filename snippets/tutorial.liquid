@@ -1,39 +1,11 @@
-{% comment %} 
-    This is a comment. It will not be rendered in the final HTML.
-{% endcomment %}
+{% assign my_num = 11 %}
 
-<p>Hello world</p>
+{% if my_num > 10 %}
 
-{%- assign my_string = 'This is a string' -%}
-<p>{{- my_string -}}</p>
-
-{%- assign my_number = 42 -%}
-<p>{{- my_number -}}</p>
-
-{%- assign my_boolean = true -%}
-<p>{{- my_boolean -}}</p>
-
-{%- assign my_nil = null -%}
-<p>{{- my_nil -}}</p>
-
-{% if undefined_variable == nil %}
-    <p>
-        The variable is nil
-    </p>
+    <p>My number is greater than 10.</p>
+    
+    {% else %}
+    
+    <p>My number is less than or equal to 10.</p>
+    
     {% endif %}
-
-{% for tag in product.tags %}
-    {{tag}}
-    <br>
-{% endfor %}
-
-<p>{{product.title}}</p>
-
-
-{% capture html %}
-    <div>
-        <p>Hello, this is me, {{product.title}}</p>
-    </div>
-{% endcapture %}
-
-    {{html}}
