@@ -1,3 +1,9 @@
 {% if product.title contains "Long" or product.price > 100000 %}
     <p>This product is affordable</p>
 {% endif %}
+
+<p>{{all_products.size}}</p>
+
+{% for product in all_products %}
+    <p style="color: red;">{{ product.title }}</p>
+{% endfor %}
