@@ -1,1 +1,13 @@
+{% comment %} 
+    Render a first word and a second word
+    Accepts: 
+        - word: string
+        - second_word: string
+    Usage:
+        {% render 'my-snippet', {word: 'Hello', second_word: "Two"} %}
+        or
+        {% include 'my-snippet' with word='Hello' second_word='World' %}
+{% endcomment %}
+
 <p>THe word is {{word}}</p>
+<p>My name is {{second_word}}</p>
