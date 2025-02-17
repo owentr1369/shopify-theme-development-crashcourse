@@ -49,6 +49,48 @@
         "show_text_below": false
       }
     },
+    "rich_text_nThUfN": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_G8QMyU": {
+          "type": "heading",
+          "settings": {
+            "heading": "🌿 <strong>Plant Store – Your Green Escape!</strong> 🌿",
+            "heading_size": "h1"
+          }
+        },
+        "text_JmUgr4": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Transform your space with lush greenery and vibrant plants! At <strong>[Your Shop Name]</strong>, we handpick the healthiest houseplants, rare finds, and stylish pots to bring nature into your home. Whether you're a seasoned plant parent or just starting your green journey, we’ve got something for you.</p>"
+          }
+        },
+        "button_6EixYB": {
+          "type": "button",
+          "settings": {
+            "button_label": "Featured Plants",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_G8QMyU",
+        "text_JmUgr4",
+        "button_6EixYB"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -80,6 +122,7 @@
   },
   "order": [
     "image_banner",
+    "rich_text_nThUfN",
     "featured_collection"
   ]
 }
