@@ -126,6 +126,7 @@
         "heading_size": "h1",
         "enable_video_looping": false,
         "video_url": "https://www.youtube.com/watch?v=W6R_tW9w3ao",
+        "cover_image": "shopify://shop_images/sddefault.jpg",
         "description": "",
         "full_width": false,
         "color_scheme": "",
