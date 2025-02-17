@@ -15,14 +15,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Snowboard Store Banner 234",
+            "heading": "<strong>Let’s grow something beautiful together!</strong>",
             "heading_size": "h0"
           }
         },
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop all",
+            "button_label_1": "Explore More",
             "button_link_1": "shopify://collections/all",
             "button_style_secondary_1": true,
             "button_label_2": "",
@@ -36,12 +36,12 @@
         "button"
       ],
       "settings": {
-        "image": "shopify://shop_images/Pngtree_snowboarder_jumps_from_a_high_15559381.jpg",
-        "image_overlay_opacity": 40,
+        "image": "shopify://shop_images/360_F_1189988970_HRF4pNV8YZ2WISmgPCxp9yyjB1NtwiKN.jpg",
+        "image_overlay_opacity": 0,
         "image_height": "large",
-        "desktop_content_position": "bottom-center",
+        "desktop_content_position": "middle-left",
         "show_text_box": false,
-        "desktop_content_alignment": "center",
+        "desktop_content_alignment": "left",
         "color_scheme": "scheme-3",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
