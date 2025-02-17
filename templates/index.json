@@ -227,6 +227,10 @@
         "show_text_below": true,
         "accessibility_info": "Slideshow about our brand"
       }
+    },
+    "pagefly-home": {
+      "type": "pagefly-home",
+      "settings": {}
     }
   },
   "order": [
@@ -235,6 +239,7 @@
     "featured_collection",
     "video_EpDieq",
     "collection_list_zAGhyh",
-    "slideshow_xPFnPQ"
+    "slideshow_xPFnPQ",
+    "pagefly-home"
   ]
 }
