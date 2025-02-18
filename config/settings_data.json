@@ -157,20 +157,20 @@
     },
     "content_for_index": [],
     "blocks": {
+      "4090771392943522038": {
+        "type": "shopify://apps/toastibar/blocks/app-embed/28a475c6-f06d-46d4-b40a-df8d869255ef",
+        "disabled": true,
+        "settings": {}
+      },
       "4377359219061587746": {
         "type": "shopify://apps/tamtt1-test-chat-extension/blocks/customer_support/f4a1e0b6-4fbc-4c14-9da5-de60764739a2",
-        "disabled": false,
+        "disabled": true,
         "settings": {
           "class": "customer-support",
           "padding": "10px 5px",
           "margin": "10px 10px",
           "button_text": "Contact Support"
         }
-      },
-      "4090771392943522038": {
-        "type": "shopify://apps/toastibar/blocks/app-embed/28a475c6-f06d-46d4-b40a-df8d869255ef",
-        "disabled": true,
-        "settings": {}
       }
     },
     "color_schemes": {
