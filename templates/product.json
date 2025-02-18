@@ -102,17 +102,29 @@
     },
     "1739852915888159a1": {
       "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "173986177090a5a52c": {
+      "type": "apps",
       "blocks": {
-        "tamtt1_test_chat_extension_star_rating_LGiLBF": {
-          "type": "shopify://apps/tamtt1-test-chat-extension/blocks/star_rating/f4a1e0b6-4fbc-4c14-9da5-de60764739a2",
+        "tamtt1_test_chat_extension_custom_price_MM3gMi": {
+          "type": "shopify://apps/tamtt1-test-chat-extension/blocks/custom_price/f4a1e0b6-4fbc-4c14-9da5-de60764739a2",
           "settings": {
-            "product": "{{product}}",
-            "colour": "#ff0000"
+            "heading": "Request A Custom Price",
+            "text_color": "#ffffff",
+            "background_color": "#000000",
+            "url": "mailto:contact@example.com",
+            "open_new_tab": true,
+            "class": "button",
+            "padding": "10px 5px",
+            "margin": "10px 10px"
           }
         }
       },
       "block_order": [
-        "tamtt1_test_chat_extension_star_rating_LGiLBF"
+        "tamtt1_test_chat_extension_custom_price_MM3gMi"
       ],
       "settings": {
         "include_margins": true
@@ -122,6 +134,7 @@
   "order": [
     "main",
     "related-products",
-    "1739852915888159a1"
+    "1739852915888159a1",
+    "173986177090a5a52c"
   ]
 }
