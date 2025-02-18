@@ -119,7 +119,7 @@
             "open_new_tab": true,
             "class": "button",
             "padding": "10px 5px",
-            "margin": "10px 10px"
+            "margin": "0"
           }
         }
       },
