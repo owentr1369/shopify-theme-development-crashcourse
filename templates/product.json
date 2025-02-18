@@ -99,10 +99,29 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "1739852915888159a1": {
+      "type": "apps",
+      "blocks": {
+        "tamtt1_test_chat_extension_star_rating_LGiLBF": {
+          "type": "shopify://apps/tamtt1-test-chat-extension/blocks/star_rating/f4a1e0b6-4fbc-4c14-9da5-de60764739a2",
+          "settings": {
+            "product": "{{product}}",
+            "colour": "#ff0000"
+          }
+        }
+      },
+      "block_order": [
+        "tamtt1_test_chat_extension_star_rating_LGiLBF"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "main",
-    "related-products"
+    "related-products",
+    "1739852915888159a1"
   ]
 }
