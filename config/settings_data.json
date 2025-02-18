@@ -164,7 +164,7 @@
       },
       "4377359219061587746": {
         "type": "shopify://apps/tamtt1-test-chat-extension/blocks/customer_support/f4a1e0b6-4fbc-4c14-9da5-de60764739a2",
-        "disabled": true,
+        "disabled": false,
         "settings": {
           "class": "customer-support",
           "padding": "10px 5px",
