@@ -140,9 +140,29 @@
         "settings": {
           "color_scheme": "scheme-1"
         }
+      },
+      "slideshow": {
+        "type": "slideshow",
+        "settings": {
+          "layout": "full_bleed",
+          "slide_height": "medium",
+          "slider_visual": "counter",
+          "auto_rotate": false,
+          "change_slides_speed": 5,
+          "image_behavior": "none",
+          "show_text_below": true,
+          "accessibility_info": "Slideshow about our brand"
+        }
       }
     },
     "content_for_index": [],
+    "blocks": {
+      "4090771392943522038": {
+        "type": "shopify://apps/toastibar/blocks/app-embed/28a475c6-f06d-46d4-b40a-df8d869255ef",
+        "disabled": false,
+        "settings": {}
+      }
+    },
     "color_schemes": {
       "scheme-1": {
         "settings": {
