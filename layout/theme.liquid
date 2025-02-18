@@ -298,9 +298,21 @@
       }
     </script>
     {% include 'pagefly-app-header' %}
+    <link rel="stylesheet" href="{{ 'chat-popup.css' | asset_url }}">
+    <script defer src="{{ 'chat-popup.js' | asset_url }}"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+          fetch('{{ 'chat-popup.html' | asset_url }}')
+              .then(response => response.text())
+              .then(html => {
+                  document.getElementById('chat-popup-container').innerHTML = html;
+              });
+      });
+    </script>
   </head>
 
   <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}">
+    <div id="chat-popup-container"></div>
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
       {{ 'accessibility.skip_to_text' | t }}
     </a>
